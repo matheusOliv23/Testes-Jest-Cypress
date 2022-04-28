@@ -1,3 +1,3 @@
 # Aprendendo sobre testes
 
-\*Jasmine
+ - Jasmine
