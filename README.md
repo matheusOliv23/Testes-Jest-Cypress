@@ -1,3 +1,7 @@
 # Aprendendo sobre testes
 
- - Jasmine
+- Jasmine
+- Cucumber
+- Selenium
+
+
