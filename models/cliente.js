@@ -1,8 +1,8 @@
 module.exports = class Cliente {
-  constructor() {
-    this.id = "";
-    this.nome = "";
-    this.telefone = "";
+  constructor(id = 0, nome = "", telefone = "") {
+    this.id = id;
+    this.nome = nome;
+    this.telefone = telefone;
   }
 
   nomeUppercase() {
@@ -15,16 +15,16 @@ module.exports = class Cliente {
 
   static todos() {
     return [
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
-      new Cliente(),
+      new Cliente(1, "Matheus", "123456"),
+      new Cliente(2, "Matheus", "123456"),
+      new Cliente(3, "Matheus", "123456"),
+      new Cliente(4, "Matheus", "123456"),
+      new Cliente(5, "Matheus", "123456"),
+      new Cliente(6, "Matheus", "123456"),
+      new Cliente(7, "Matheus", "123456"),
+      new Cliente(8, "Matheus", "123456"),
+      new Cliente(9, "Matheus", "123456"),
+      new Cliente(10, "Matheus", "123456"),
     ];
   }
 };

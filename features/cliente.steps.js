@@ -24,5 +24,6 @@ When("I access the name webpage", async function () {
 });
 
 Then("see the list of {string} itens", async function (string) {
-  assert(await driver.findElements(By.tagName("tr")).length).toBeEqual(10);
+  let qtd = await driver.findElements(By.css("tbody tr"));
+  assert.equal(qtd.length, parseInt(string));
 });
