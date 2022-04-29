@@ -1,7 +1,7 @@
 # Aprendendo sobre testes
 
-- Jasmine
-- Cucumber
-- Selenium
+- Jest
+- Cypress
+
 
 
